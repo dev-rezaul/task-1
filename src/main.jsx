@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import MyProfile from "./MyProfile";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 import "./global.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<MyProfile />);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
